@@ -1,0 +1,205 @@
+/*-------------------------------*\
+            FONT FACE            
+\*-------------------------------*/
+
+@font-face {
+    font-family: 'ecommerce-iconfont';
+    src: url('font/ecommerce-iconfont.eot'); /* IE9 Compatibility Mode */
+    src: 
+        url('font/ecommerce-iconfont.eot#iefix') format('embedded-opentype'), /* IE8 */
+        url('font/ecommerce-iconfont.woff2') format('woff2'), /* Chrome 36+ and Opera 23+ */
+        url('font/ecommerce-iconfont.woff') format('woff'), /* IE9+ and All Modern Browsers */
+        url('font/ecommerce-iconfont.ttf') format('truetype'), /* Many Old Browsers */
+        url('font/ecommerce-iconfont.svg#ecommerce-iconfont') format('svg'); /* Old iOS (3.2–4.1) */
+}
+
+/*
+
+    If you don't have to support IE8 and other old browsers, 
+    the modern WOFF and WOFF2 formats are all you need to include:
+
+    @font-face {
+        font-family: 'ecommerce-iconfont';
+        src:
+            url('font/ecommerce-iconfont.woff2') format('woff2'),
+            url('font/ecommerce-iconfont.woff') format('woff');
+    }
+
+*/
+ 
+[class^="eif-"]:before, [class*=" eif-"]:before {
+    font-family: 'ecommerce-iconfont';
+    font-weight: normal;
+    font-style: normal;
+    speak: none;
+}
+
+/*-------------------------------*\
+             ICON CODES            
+\*-------------------------------*/
+
+/* 
+
+    If you don't want to use a specific classname with a :before pseudo 
+    element to show your icons and would rather paste the unicode character 
+    in your HTML markup, you can get it like this from the 'content' value below:
+
+    content: '\e800';  -->  &#xe800;
+
+    Example for showing the MasterCard icon:
+
+    .icon {
+        font-family: "ecommerce-iconfont";
+    }
+
+    <span class="icon">&#xe800;</span>
+
+*/
+ 
+.eif-mastercard:before { content: '\e800'; }
+.eif-mastercard-solid:before { content: '\e801'; }
+.eif-maestro:before { content: '\e802'; }
+.eif-maestro-solid:before { content: '\e803'; }
+.eif-cirrus:before { content: '\e804'; }
+.eif-cirrus-solid:before { content: '\e805'; }
+.eif-visa:before { content: '\e806'; }
+.eif-visa-electron:before { content: '\e807'; }
+.eif-plus:before { content: '\e808'; }
+.eif-amex:before { content: '\e809'; }
+.eif-americanexpress:before { content: '\e80a'; }
+.eif-jcb:before { content: '\e80b'; }
+.eif-diners:before { content: '\e80c'; }
+.eif-discover:before { content: '\e80d'; }
+.eif-dankort:before { content: '\e80e'; }
+.eif-unionpay:before { content: '\e80f'; }
+.eif-paypal:before { content: '\e810'; }
+.eif-stripe:before { content: '\e811'; }
+.eif-twocheckout:before { content: '\e812'; }
+.eif-braintree:before { content: '\e813'; }
+.eif-authorizenet:before { content: '\e814'; }
+.eif-simplifycommerce:before { content: '\e815'; }
+.eif-googlewallet:before { content: '\e816'; }
+.eif-worldpay:before { content: '\e817'; }
+.eif-amazonpayments:before { content: '\e818'; }
+.eif-paymate:before { content: '\e819'; }
+.eif-securenet:before { content: '\e81a'; }
+.eif-payleap:before { content: '\e81b'; }
+.eif-eway:before { content: '\e81c'; }
+.eif-paysimple:before { content: '\e81d'; }
+.eif-ccavenue:before { content: '\e81e'; }
+.eif-nab:before { content: '\e81f'; }
+.eif-skrill:before { content: '\e820'; }
+.eif-pinpayments:before { content: '\e821'; }
+.eif-firstdata:before { content: '\e822'; }
+.eif-alipay:before { content: '\e823'; }
+.eif-bitcoin:before { content: '\e824'; }
+.eif-bitcoin-circled:before { content: '\e825'; }
+.eif-bitcoin-simple:before { content: '\e826'; }
+.eif-litecoin:before { content: '\e827'; }
+.eif-litecoin-circled:before { content: '\e828'; }
+.eif-litecoin-simple:before { content: '\e829'; }
+.eif-coinbase:before { content: '\e82a'; }
+.eif-bitpay:before { content: '\e82b'; }
+.eif-coinjar:before { content: '\e82c'; }
+.eif-gocoin:before { content: '\e82d'; }
+.eif-bips:before { content: '\e82e'; }
+.eif-ripple:before { content: '\e82f'; }
+.eif-magento:before { content: '\e830'; }
+.eif-bigcommerce:before { content: '\e831'; }
+.eif-shopify:before { content: '\e832'; }
+.eif-lemonstand:before { content: '\e833'; }
+.eif-woocommerce:before { content: '\e834'; }
+.eif-drupalcommerce:before { content: '\e835'; }
+.eif-prestashop:before { content: '\e836'; }
+.eif-opencart:before { content: '\e837'; }
+.eif-norton:before { content: '\e838'; }
+.eif-truste:before { content: '\e839'; }
+.eif-mcafee:before { content: '\e83a'; }
+.eif-trustwave:before { content: '\e83b'; }
+.eif-bbb:before { content: '\e83c'; }
+.eif-thawte:before { content: '\e83d'; }
+.eif-geotrust:before { content: '\e83e'; }
+.eif-comodo:before { content: '\e83f'; }
+
+/*-------------------------------*\
+          ICON SIZE BALANCE            
+\*-------------------------------*/
+
+/*
+
+    Because the logos come in different aspect ratios, they might look unbalanced 
+    when all are set to the same font size - some too big and others too small.
+
+    To get around this, set a font-size to the container element 
+    and adjust each individual icon's size up and down with ems.
+
+    Don't copy this in your stylesheet if you don't need it.
+
+*/
+
+.container { font-size: 48px; }
+
+.eif-mastercard:before { font-size: 1.2em; }
+.eif-mastercard-solid:before { font-size: 1.2em; }
+.eif-maestro:before { font-size: 1.2em; }
+.eif-maestro-solid:before { font-size: 1.2em; }
+.eif-cirrus:before { font-size: 1.2em; }
+.eif-cirrus-solid:before { font-size: 1.2em; }
+.eif-visa:before { font-size: .85em; }
+.eif-visa-electron:before { font-size: 1.2em; }
+.eif-plus:before { font-size: 1.2em; }
+.eif-amex:before { font-size: .85em; }
+.eif-americanexpress:before { font-size: 1.1em; }
+.eif-jcb:before { font-size: .78em; }
+.eif-diners:before { font-size: 1.05em; }
+.eif-discover:before { font-size: .75em; }
+.eif-dankort:before { font-size: 1em; }
+.eif-unionpay:before { font-size: 1.1em; }
+.eif-paypal:before { font-size: .9em; }
+.eif-stripe:before { font-size: 1.1em; }
+.eif-twocheckout:before { font-size: 1.25em; }
+.eif-braintree:before { font-size: 1.05em; }
+.eif-authorizenet:before { font-size: .65em; }
+.eif-simplifycommerce:before { font-size: 1em; }
+.eif-googlewallet:before { font-size: 1.05em; }
+.eif-worldpay:before { font-size: 0.9em; }
+.eif-amazonpayments:before { font-size: 0.95em; }
+.eif-paymate:before { font-size: 1.8em; }
+.eif-securenet:before { font-size: .95em; }
+.eif-payleap:before { font-size: 1.1em; }
+.eif-eway:before { font-size: 1.1em; }
+.eif-paysimple:before { font-size: .85em; }
+.eif-ccavenue:before { font-size: .7em; }
+.eif-pinpayments:before { font-size: 1em; }
+.eif-skrill:before { font-size: 1.2em; }
+.eif-nab:before { font-size: 1.2em; }
+.eif-firstdata:before { font-size: .95em; }
+.eif-alipay:before { font-size: 1.2em; }
+.eif-bitcoin:before { font-size: .9em; }
+.eif-bitcoin-circled:before { font-size: 1.15em; }
+.eif-bitcoin-simple:before { font-size: .95em; }
+.eif-litecoin:before { font-size: .9em; }
+.eif-litecoin-circled:before { font-size: 1.15em; }
+.eif-litecoin-simple:before { font-size: .85em; }
+.eif-coinbase:before { font-size: .9em; }
+.eif-bitpay:before { font-size: 1em; }
+.eif-coinjar:before { font-size: .66em; }
+.eif-gocoin:before { font-size: .88em; }
+.eif-bips:before { font-size: 1.35em; }
+.eif-ripple:before { font-size: 1em; }
+.eif-magento:before { font-size: 1.2em; }
+.eif-bigcommerce:before { font-size: 1.28em; }
+.eif-shopify:before { font-size: 1.15em; }
+.eif-lemonstand:before { font-size: 1.1em; }
+.eif-woocommerce:before { font-size: 1.4em; }
+.eif-drupalcommerce:before { font-size: 1.3em; }
+.eif-prestashop:before { font-size: 1.35em;	}
+.eif-opencart:before { font-size: 1.65em; }
+.eif-norton:before { font-size: 1.3em; }
+.eif-truste:before { font-size: 1.1em; }
+.eif-mcafee:before { font-size: 1.1em; }
+.eif-trustwave:before { font-size: .75em; }
+.eif-bbb:before { font-size: 1.5em; }
+.eif-thawte:before { font-size: 1.05em; }
+.eif-geotrust:before { font-size: 1em; }
+.eif-comodo:before { font-size: .6em; }
