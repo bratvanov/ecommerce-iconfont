@@ -1,8 +1,6 @@
 # eCommerce Icon Font
 Logos for credit cards, payment methods and gateways, cryptocurrencies and many other eCommerce related brands in an icon font or SVG format.
 
-[**LIVE DEMO**](http://www.euene.com/ecommerce-iconfont/)
-
 ## Icon Font Usage
 
 Refer to the *demo.html* and *demo.css* files for instructions and examples.
